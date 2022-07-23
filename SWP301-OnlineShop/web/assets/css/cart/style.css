@@ -1,0 +1,130 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 23, 2022, 12:31:22 AM
+    Author     : ASUS
+*/
+.disabled {
+    pointer-events: none;
+    color: #ccc;
+}
+
+/*.cart_quantity_up{
+    width: 40%;
+}
+.cart_quantity_down{
+    width: 40%;
+}
+.cart_quantity_button input {
+    width: 40%;
+}*/
+
+/*.cart_quantity_input {
+    width: 35%;
+}*/
+
+.cart_quantity_button {
+    display: flex;
+}
+
+#empty-cart {
+    text-align: center;
+}
+
+.border {
+    border-bottom: solid 2px; 
+    margin-top: 10px;
+}
+
+#change-id {
+   
+}
+
+#info-user-id {
+    display: flex;
+}
+
+#address-id {
+    width: 90%;
+}
+
+#pay-id {
+    padding-left: 40px;
+}
+
+.disabledbutton {
+    pointer-events: none;
+    background-color: lightgray;
+    opacity: 0.4;
+    
+}
+.out-stock {
+    color: red;
+    font-weight: bold;
+    height: auto;
+}
+
+.cart_quantity_input {
+    width: 50px;
+/*    Hide up down input type number*/
+    -moz-appearance: textfield;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.down-size {
+    width: 1%;
+}
+
+#delete_button_id {
+    background-color: orange;
+}
+
+
+/*============================ ALERT ====================================*/
+.alert {
+  padding-left: 30px;
+  margin-left: 15px;
+  position: relative;
+  border-radius: 2px;
+  border:none;
+}
+.alert > .fa,
+.alert > .glyphicon {
+  position: absolute;
+  left: -15px;
+  top: -15px;
+  width: 35px;
+  height: 35px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  line-height: 35px;
+  text-align: center;
+  background: inherit;
+  border: inherit;
+}/*
+
+alert
+*/.alert-danger {
+  background-color: #fad5d5;
+}
+.alert-success {
+  background-color: #cffabd;
+}
+.alert-warning {
+  background-color: #fcf4c9;
+}/*
+badge colors*/
+
+#features_items-id {
+    width: 200px;
+    height: 100px;
+}
+

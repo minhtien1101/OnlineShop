@@ -1,0 +1,269 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 31, 2022, 9:01:17 PM
+    Author     : Admin
+*/
+.span-rated-star{
+    font-size: 20px;
+    color: #ffe500;
+    opacity: 1;
+    transform: rotateX(0deg);
+    text-shadow: 0 0 30px #ffc;
+}
+
+.mx-auto{
+    margin: 0 auto;
+}
+
+
+.text-color-red{
+    color: red;
+}
+
+.text-color-green{
+    color: green;
+}
+.edit-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ml-1percent{
+    margin-left: 1%;
+}
+
+.image-input-layout{
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    background-color: #9e9e9e;
+}
+
+.mr-5{
+    margin-right: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+
+.background-color-9e9e9e{
+    background-color: #9e9e9e;
+}
+
+
+.postion-absolute{
+    position: absolute;
+}
+
+.image-thumbnail{
+    display: inline-block;
+}
+
+.ml-90percent{
+    margin-left: 90%;
+}
+
+.close-btn{
+    font-size: 20px;
+    color: red;
+    margin-left: 90%;
+    position: absolute;
+    display: none;
+}
+
+.close-btn-not-hide{
+    font-size: 20px;
+    color: red;
+    margin-left: 90%;
+    position: absolute;
+}
+
+
+.close-btn:hover{
+    color: orange;
+}
+
+.display-inline-block{
+    display: inline-block;
+}
+
+.display-none{
+    display: none;
+}
+
+.h-100percent{
+    height: 100%;
+}
+
+.w-200{
+    width: 200px;
+}
+
+.w-100percent{
+    width: 100%;
+}
+
+.h-200{
+    height: 200px;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+.boder-radius{
+    border-radius: 10px;
+}
+
+.w-35percent{
+    width: 35%;
+}
+
+.mr-5percent{
+    margin-right: 5%;
+}
+
+.ml-2percent{
+    margin-left: 2%;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.display-inline{
+    display: inline;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.foat-l{
+    float: left;
+}
+
+.w-70-percent{
+    width: 70%;
+}
+
+.w-50-percent{
+    width: 50%;
+}
+
+.m-0-2percent{
+    margin: 0 2%;
+}
+
+.display-inline-block{
+    display: inline-block;
+}
+.float-r{
+    float: right;
+}
+
+.padding-0{
+    padding: 0;
+}
+
+#formAddNewUser{
+    margin: 0 2%;
+    padding: 0;
+    display: inline-block;
+    float: right;
+}
+
+.content{
+    margin:  0px 20px;
+}
+
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+#alterfade {
+    animation: fadeOut 2s forwards;
+    animation-delay: 2s;
+    height: 75px;
+    top: -198px;
+}
+
+
+#showAlter{
+    position: absolute;
+    width: 20%;
+    left: 78%;
+    z-index: 1024;
+}
+
+#showAlterSuccess{
+    position: absolute;
+    width: 20%;
+    left: 78%;
+    z-index: 1024;
+}
+
+#showAlterFail{
+    position: absolute;
+    width: 20%;
+    left: 78%;
+    z-index: 1024;
+}
+
+.filter-select{
+    width: 20px;
+}
+
+.content{
+    margin:  0px 20px;
+}
+
+#searchfilter{
+    margin-bottom: 10px;
+}
+
+#customToolbar.form-control {
+    display: inline-block !important;
+}
+
+#toolbar {
+    margin-bottom: 10px;
+}
+
+.mg-10px {
+    display: inline-block !important;
+    margin-bottom: 10px;
+}
+
+.img-contain {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
+
+#feedbackImg {
+    display: flex;
+}
+#feedbackImg img:nth-child(n+1) {
+    margin-left: 2%;
+}
+#feedbackImg img:nth-child(1) {
+    margin-left: 0%;
+}
+/*
+#formFilter{
+    width: 70%;
+    float: left;
+}*/
+
+
+

@@ -1,0 +1,136 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 30, 2022, 2:24:23 PM
+    Author     : Admin
+*/
+.dflex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.word-wrap-w-40 {
+    width: 40%;
+    word-wrap: break-word;
+}
+.btn-close-preview{
+    font-size: 30px;
+    position: absolute;
+    z-index: 1024;
+    right: 5px;
+}
+.postion-absolute-z-index {
+    font-size: 30px;
+    position: absolute;
+    z-index: 1024;
+    right: 5px;
+}
+.img-fit {
+    object-fit: cover;
+/*    height: inherit;
+    width: 100%;*/
+}
+.preview-img {
+    margin: 0 auto;
+    width: 50%;
+    height: fit-content;
+    overflow: hidden;
+    display: none;
+    position: relative;
+    border-radius: 15px;
+}
+.preview-img-edit {
+    margin: 0 auto;
+    width: 50%;
+    height: fit-content;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+}
+.cursor-mg {
+    cursor: pointer;
+    margin: 10px 0px 0px 10px;
+}
+.text-indent {
+    text-indent: 1.5rem;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+.pd-v4-h8 {
+    padding: 4px 8px;
+}
+.mb-10px {
+    margin-bottom: 10px;
+}
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+.text-tranform-wrap {
+    text-transform: capitalize;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.w-h-100 {
+    width: 100%;
+    height: 100%;
+}
+.boder-radius-over-h {
+    border-radius: 15px;
+    overflow: hidden;
+    height: 340px;
+}
+.mr-2px {
+    margin-right: 2px;
+}
+.text-n-color-w {
+    text-decoration: none;
+    color:white;
+}
+.img-wh {
+    width: 60px;
+    height: 60px;
+}
+.w-25rem {
+    width: 25rem;
+}
+.mb-1rem {
+    margin-bottom: 1rem;
+}
+.t-55px {
+    top: 55px;
+}
+.filter-select{
+    width: 20px;
+}
+
+.content{
+    margin:  0px 20px;
+}
+
+#searchfilter{
+    margin-bottom: 10px;
+}
+
+#formAddNewUser{
+    margin: 0 2%;
+    padding: 0;
+    display: inline-block;
+    float: right;
+}
+
+#formFilter{
+    width: 85%;
+    float: left;
+}
+
+
+

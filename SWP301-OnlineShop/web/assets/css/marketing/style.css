@@ -1,0 +1,321 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 5, 2022, 9:53:46 AM
+    Author     : Admin
+*/
+.wp-block.property.list {
+    border: 1px solid #e0eded;
+}
+
+.wp-block {
+    margin: 0 0 15px 0;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+    position: relative;
+    cursor: default;
+    border-radius: 2px;
+}
+
+.wp-block.property.list .wp-block-title {
+    padding: 15px 15px 0 15px;
+}
+
+.wp-block.property.list .wp-block-title h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.wp-block .wp-block-body {
+    padding: 15px;
+}
+
+.wp-block.property.list .wp-block-img {
+    display: table-cell;
+    width: 440px;
+}
+
+.wp-block.property.list .wp-block-img img {
+    width: 100%;
+}
+
+.wp-block.property.list .wp-block-content .content-title {
+    font-size: 20px;
+    color: #3498db;
+    margin-bottom: 5px;
+}
+
+.wp-block.property.list .wp-block-body .wp-block-content {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 15px;
+}
+
+.wp-block.property.list .wp-block-content .description {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0eded;
+}
+
+.wp-block.property.list .wp-block-footer ul.aux-info {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    background: #fcfcfc;
+    border-top: 1px solid #e0eded;
+}
+
+.wp-block.property.list .wp-block-footer ul.aux-info li {
+    display: table-cell;
+    padding: 10px 15px;
+    vertical-align: middle;
+    border-right: 1px solid #e0eded;
+}
+
+.ribbon.base {
+    background: #3498db;
+    color: #fff;
+    border-right: 5px solid #8bc4ea;
+}
+
+.ribbon {
+    position: absolute;
+    top: 20px;
+    right: -5px;
+    padding: 15px;
+}
+
+.base {
+    background: #3498db;
+    color: #fff !important;
+}
+
+.ribbon:before, .ribbon:after {
+    content: '';
+    position: absolute;
+    left: -9px;
+    border-left: 10px solid transparent;
+}
+
+.ribbon:before {
+    top: 0;
+}
+
+.ribbon.base:before {
+    border-top: 27px solid #3498db;
+}
+
+.ribbon.base:after {
+    border-bottom: 27px solid #3498db;
+}
+
+.ribbon:after {
+    bottom: 0;
+}
+
+
+.box-shadow {
+    box-shadow: 0px 0px 10px 2px #ccc7c7;
+    margin-bottom: 30px;
+}
+body{
+    margin-top:20px;
+    background-color:#f2f6fc;
+    color:#69707a;
+}
+.img-account-profile {
+    height: 10rem;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.card {
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+}
+.card .card-header {
+    font-weight: 500;
+}
+.card-header:first-child {
+    border-radius: 0.35rem 0.35rem 0 0;
+}
+.card-header {
+    padding: 1rem 1.35rem;
+    margin-bottom: 0;
+    background-color: rgba(33, 40, 50, 0.03);
+    border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+}
+/*.form-control, .dataTable-input {
+    display: block;
+    width: 100%;
+    padding: 0.875rem 1.125rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #69707a;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #c5ccd6;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.35rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}*/
+
+.nav-borders .nav-link.active {
+    color: #0061f2;
+    border-bottom-color: #0061f2;
+}
+.nav-borders .nav-link {
+    color: #69707a;
+    border-bottom-width: 0.125rem;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/*.container {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-style: inset;
+   
+    
+
+}*/
+
+.note {
+    color: red
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.crop { overflow:hidden; white-space:nowrap; text-overflow:ellipsis; width:500px; }
+
+.height {
+    height: 25px;
+}
+
+.active-page {
+    color:blue;
+    font-weight: bold;
+    font-size: initial;
+}
+
+#img-slider{
+    height: 200px;
+}
+
+.input-group {
+    width: 400px;
+}
+
+#form-filter {
+    display: -webkit-inline-box;
+    margin: 30px 10px 30px 350px;
+}
+
+
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  float:right;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input.default:checked + .slider {
+  background-color: #444;
+}
+input.primary:checked + .slider {
+  background-color: #2196F3;
+}
+input.success:checked + .slider {
+  background-color: #8bc34a;
+}
+input.info:checked + .slider {
+  background-color: #3de0f5;
+}
+input.warning:checked + .slider {
+  background-color: #FFC107;
+}
+input.danger:checked + .slider {
+  background-color: #f44336;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.row-class {
+    display: flex;
+}
+
+.form-date{
+    padding-top: 20px;
+    margin-left: 200px;
+}
+.form-date-1{
+    padding-top: 20px;
+    margin-left: 340px;
+}
+
+.title-dash {
+    margin-left: 20px;
+}
